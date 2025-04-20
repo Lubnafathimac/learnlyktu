@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Main | Study Materials</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="main">
+  <header>
+    <h1>Study Materials</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Notes</a>
+      <a href="#">Customer Care</a>
+      <a href="#">Terms</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="filter">
+      <h2>Select Your Preferences</h2>
+      <label>Semester:
+        <select>
+          <option>1st</option><option>2nd</option><option>3rd</option><option>4th</option>
+        </select>
+      </label>
+      <label>Group:
+        <select>
+          <option>CSE</option><option>ECE</option><option>ME</option><option>CE</option>
+        </select>
+      </label>
+      <label>Subject:
+        <input type="text" placeholder="Enter subject name">
+      </label>
+      <label>Module:
+        <input type="number" min="1" max="10">
+      </label>
+      <button>Search Notes</button>
+    </section>
+
+    <section class="notes-preview">
+      <h2>Featured Notes</h2>
+      <p>Find your selected materials here...</p>
+    </section>
+  </main>
+</body>
+</html>
